@@ -9,7 +9,6 @@ function Sell() {
                 tooltip="Sell you items"
                 rotate={true}
                 // onClick={() => alert('FAB Rocks!')}
-                
                 >Sell</Button>
         </Container>
     )

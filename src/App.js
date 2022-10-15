@@ -2,26 +2,23 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import FreshItems from './components/FreshItems';
-import Heading from './components/Heading';
-import Sell from './components/Sell';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
 
 
 function App() {
   return (
-      <Router>
-    <div>
+    <Router>
+      <div>
         <Navbar />
         <Routes>
-          <Route path="/Login" element={<Login/>}/>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/Login" element={<Login />} />
           <Route path="/Signup" element={<Signup />} />
         </Routes>
-      <Sell />
-      <Heading/>
-      <FreshItems/>
-    </div>
-      </Router>
+        
+      </div>
+    </Router>
   );
 }
 
