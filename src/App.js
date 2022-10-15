@@ -6,12 +6,8 @@ function App() {
   return (
     <div>
      <Navbar />
-    
-    
-    
-    
-    
-    
+
+     This line is for learning. Nothing spl. 
     </div>
   );
 }
