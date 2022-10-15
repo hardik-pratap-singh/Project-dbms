@@ -8,7 +8,7 @@ function App() {
      <Navbar />
 
      This line is for learning. Nothing spl. 
-     I wrote this is master branch
+     I wrote this in master branch
     </div>
   );
 }
