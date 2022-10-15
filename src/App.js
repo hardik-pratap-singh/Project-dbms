@@ -10,6 +10,8 @@ function App() {
      This line is for learning. Nothing spl. 
      I wrote this in master branch
      This is a line in newbranch
+
+     Changes done in the master branch. 
     </div>
   );
 }
