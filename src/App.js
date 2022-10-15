@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar';
+import Sell from './components/Sell';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
      <Navbar />
 
     This is new File. 
+    <Sell/>
     </div>
   );
 }
