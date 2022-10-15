@@ -7,6 +7,7 @@ function App() {
     <div>
      <Navbar />
 
+    This is new File. 
     </div>
   );
 }
