@@ -1,7 +1,17 @@
+.navbar{
+    position: sticky;
+    top:0;
+    z-index: 2;
+    opacity: 0.95;
+}
+
+
 .header{
     font-family: 'Samartan';
     font-size: 80px;
 }
+
+
 
 @font-face {
     font-family: Samartan;
