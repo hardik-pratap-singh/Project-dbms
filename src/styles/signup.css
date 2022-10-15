@@ -1,0 +1,105 @@
+.login-page {
+
+    width: 400px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+  
+  .form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: -100 auto 80px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  
+  }
+  
+  .header {
+    width: 1199px;
+    background: #FFFFFF;
+    padding: 0 0 0;
+    margin: auto;
+  }
+  
+  
+  input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=email] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  
+  
+  input[type=submit] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=email]:focus {
+    border: 3px solid #555;
+  }
+  
+  input[type=password]:focus {
+    border: 3px solid #555;
+  }
+  
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #btn {
+    cursor: pointer;
+    width: 110px;
+    padding: 8px;
+  }
+  
+  #btn:hover {
+    border: 2px solid black;
+    transition: 0.4s;
+  }
