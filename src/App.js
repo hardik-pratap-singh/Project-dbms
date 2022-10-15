@@ -7,7 +7,7 @@ function App() {
     <div>
      <Navbar />
 
-     This line is for learning. Nothing spl. 
+     This is a line in newbranch
     </div>
   );
 }
