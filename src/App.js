@@ -1,4 +1,5 @@
 import React from 'react'
+import Heading from './components/Heading';
 import Navbar from './components/Navbar';
 import Sell from './components/Sell';
 
@@ -6,10 +7,9 @@ import Sell from './components/Sell';
 function App() {
   return (
     <div>
-     <Navbar />
-
-    This is new File. 
-    <Sell/>
+      <Navbar />
+      <Sell />
+      <Heading/>
     </div>
   );
 }
