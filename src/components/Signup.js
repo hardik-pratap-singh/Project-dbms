@@ -9,12 +9,16 @@ function Signup() {
       </div>
       <div className="login-page">
         <div className="form">
-          <form method="post" action="../../backend/details">
+          <form method="post" action="../../backend/signup">
             <input type="text" name="name" placeholder="Name" required />
+            <br />
+            <input type="text" name="userid" placeholder="UserID" required />
             <br />
             <input type="text" name="age" placeholder="Age" />
             <br />
             <input type="email" name="email" placeholder="Email" />
+            <br />
+            <input type="text" name="phoneno" placeholder="Phone Number" />
             <br />
             <input type="password" name="password" placeholder="Password" />
             <br />

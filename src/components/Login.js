@@ -14,11 +14,11 @@ function Login() {
         </div>
         <div className="login-page">
           <div className="form">
-            <form method="post" action="loginServlet">
-              <input type="text" name="name" placeholder="User Name" required />
+            <form method="post" action="../../backend/login">
+              <input type="text" name="userid" placeholder="User Name" required />
               <br />
               <br />
-              <input type="password" name="password" placeholder="Password" />
+              <input type="password" name="password" placeholder="Password" required />
               <br />
               <br />
               <input id="btn" type="submit" value="Login" />
