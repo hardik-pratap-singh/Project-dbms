@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            Navbar
+          लेन-देन
           </a>
           <button
             className="navbar-toggler"
@@ -31,7 +31,7 @@ function Navbar() {
               <li className="nav-item">
                 <Link className="nav-link" to="./Login">Login</Link>
               </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
                   href="/"
@@ -61,7 +61,7 @@ function Navbar() {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
             </ul>
             <form className="d-flex" role="search">
               <input
