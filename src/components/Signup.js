@@ -9,7 +9,7 @@ function Signup() {
       </div>
       <div className="login-page">
         <div className="form">
-          <form method="post" action="registerServlet">
+          <form method="post" action="../../../details">
             <input type="text" name="name" placeholder="Name" required />
             <br />
             <input type="text" name="age" placeholder="Age" />
