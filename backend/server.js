@@ -33,7 +33,6 @@ app.get("/hardik" , (req , res) => {
   //           // console.log(x.productid , x.productname , x.productImg.toString()) ;
   //           // console.log(result) ; 
   // // console.log("teesri query")
-
   //           res.send(result) ; 
   //       })
             console.log(result); 
