@@ -1,6 +1,5 @@
 import React from "react";
-// import "../styles/login.css";
-import "../styles/sellform.css";
+import "../styles/login.css";
 // import $ from 'jquery'; 
 // import Signup from "./Signup";
 
@@ -8,7 +7,8 @@ import "../styles/sellform.css";
 
 function SellForm() {
   return (
-    <>    
+    <><div className="sf">
+      
       <div className="mainhead">
         <div className="header">
           <h1>Sell Here</h1>
@@ -49,7 +49,7 @@ function SellForm() {
           </div>
         </div>
       </div>
-      
+      </div> 
     </>
   );
 }
