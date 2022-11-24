@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Item from './Item';
 
-export class FreshItems extends Component {
+export class Test extends Component {
 
     constructor(props) {
         super(props);
@@ -47,4 +47,4 @@ export class FreshItems extends Component {
     }
 }
 
-export default FreshItems
+export default Test

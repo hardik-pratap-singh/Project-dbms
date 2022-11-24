@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Description from "./components/Description";
 import SellForm from "./components/SellForm";
-import Items from "./components/Items";
+import Test from "./components/Test";
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <Route path="/Signup" element={<Signup />} />
           <Route path="/View" element={<Description />} />
           <Route path="/Sell" element={<SellForm />} />
-          <Route path="/hardik123" element={<Items />} />
+          <Route path="/hardik123" element={<Test />} />
         </Routes>
       </div>
     </Router>

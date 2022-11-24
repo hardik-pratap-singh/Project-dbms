@@ -4,6 +4,15 @@ const bodyParser = require("body-parser");
 const mysql = require('mysql2');
 const { redirect } = require("react-router-dom");
 const path = require("path")
+const cors=require("cors");
+
+const corsOptions ={
+   origin:'*', 
+   credentials:true,   
+   optionSuccessStatus:200,
+}
+
+app.use(cors(corsOptions))
 
 
 let con = mysql.createConnection({
@@ -35,8 +44,10 @@ app.get("/hardik" , (req , res) => {
   // // console.log("teesri query")
   //           res.send(result) ; 
   //       })
+
+          
             console.log(result); 
-            res.send(result) ; 
+            res.send({articles:result}) ; 
       }
     });
   });
