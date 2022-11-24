@@ -88,3 +88,97 @@
   a{
     color: blue;
   }
+
+
+
+  /* Sellorm CSS */
+  .sf input[type="text"] {
+    width: 94%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  .sf input[type="descp"] {
+    width: 94%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  .sf input[type="price"] {
+    width: 94%;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  .sf input[type="text"]:focus {
+    border: 3px solid #555;
+  }
+  .sf input[type="descp"]:focus {
+    border: 3px solid #555;
+  }
+  .sf input[type="price"]:focus {
+    border: 3px solid #555;
+  }
+  .sf select:focus{
+    border: 3px solid #555;
+  }
+  .sf input[type="submit"] {
+    width: 94%;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #555;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    
+  }
+  .sf input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  .sf select{
+    width: 94%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  .sf .login-page{
+    padding-top: 140px;
+  }
+  .sf input[type="submit"]:hover{
+    /* border:  3px solid #ccc !important; */
+    background-color: #ccc;
+    color: black;
+  }
+  .sf input[type=file]{
+    padding-top: 15px;
+    font-size: small;
+  }
+  .sf .cfile{
+    font-size: medium;
+    font-weight: 500;
+    padding-bottom: 14px;
+  }
