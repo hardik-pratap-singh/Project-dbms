@@ -1,4 +1,5 @@
 import React from 'react';
+// import Description from './Description';
 import Item from './Item';
 
 function FreshItems() {

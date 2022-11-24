@@ -1,0 +1,97 @@
+input[type="text"] {
+  width: 94%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+input[type="descp"] {
+  width: 94%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+input[type="price"] {
+  width: 94%;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border: 3px solid #555;
+}
+input[type="descp"]:focus {
+  border: 3px solid #555;
+}
+input[type="price"]:focus {
+  border: 3px solid #555;
+}
+
+select:focus{
+  border: 3px solid #555;
+}
+
+input[type="submit"] {
+  width: 94%;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #555;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+select{
+  width: 94%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+.login-page{
+  padding-top: 140px;
+}
+
+input[type="submit"]:hover{
+  border:  3px solid #ccc !important;
+  background-color: #ccc;
+  color: black;
+}
+
+input[type=file]{
+  padding-top: 15px;
+  font-size: small;
+}
+.cfile{
+  font-size: medium;
+  font-weight: 500;
+  padding-bottom: 14px;
+}

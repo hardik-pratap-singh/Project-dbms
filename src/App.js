@@ -4,6 +4,9 @@ import Login from "./components/Login";
 import Signup from "./components/Signup";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
+import Description from "./components/Description";
+import SellForm from "./components/SellForm";
+import Items from "./components/Items";
 
 
 function App() {
@@ -15,6 +18,9 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Signup" element={<Signup />} />
+          <Route path="/View" element={<Description />} />
+          <Route path="/Sell" element={<SellForm />} />
+          <Route path="/hardik123" element={<Items />} />
         </Routes>
       </div>
     </Router>
