@@ -11,12 +11,11 @@ export class FreshItems extends Component {
     }
 
     async componentDidMount() {
-        let url = 'http://localhost:8080/hardik';
+        let url = 'http://localhost:8080/getproducts';
         let data = await fetch(url);
         let parsedData = await data.json();
         console.log(parsedData);
         this.setState({ articles: parsedData.articles});
-        
     }
 
     render() {
@@ -24,27 +23,22 @@ export class FreshItems extends Component {
         return (
             <div className="container my-3">
                 <h1 className="text-center">Fresh recommendations</h1>
-
-
                 <div className='row'>
-
                     {this.state.articles.map((e) => {
                         return <div className='col-md-4' key={e.productid} >
                             <Item title={e.itemname? e.itemname : ""}
-                                description={e.desc ? e.desc.substring(0, 90) : ""}
+                                desc={e.desc ? e.desc.substring(0, 90) : ""}
                                 price={e.price}
-                                imgUrl={e.image.toString()  ? e.image.toString()  : "https://www.middleweb.com/wp-content/uploads/2017/08/breaking-news-blue-600.jpg"}
-                                // newsUrl={e.url} 
+                                imgUrl = {e.image}
+                                sname={e.name}
+                                email={e.email}
+                                phone={e.phoneno}
                                 />
                         </div>
                     })}
-
                 </div>
-
-
             </div>
         )
     }
 }
-
 export default FreshItems

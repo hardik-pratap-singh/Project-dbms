@@ -31,6 +31,11 @@ function Navbar() {
               <li className="nav-item">
                 <Link className="nav-link" to="./Login">Login</Link>
               </li>
+              <li className="nav-item">
+                <form action="../../backend/Logout" method="post">
+                <button type="submit" className="btn-dark">Logout</button>
+                </form>
+              </li>
               {/* <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
