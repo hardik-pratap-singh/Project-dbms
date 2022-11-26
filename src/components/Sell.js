@@ -6,7 +6,7 @@ function Sell() {
         <Container>
             <Link to = "/Sell">
             <Button
-                className="fab-item btn btn-link btn-lg text-white sell-btn"
+                className=""
                 tooltip="Sell your items"
                 rotate={false}
                 // onClick={() => }

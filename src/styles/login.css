@@ -5,37 +5,43 @@
   margin-top: 12px ;
 }
 
+.header h1{
+  padding-right: 50px;
+}
+
 .login-page {
     height:500px;
     width: 360px;
     padding: 8% 0 0;
-    margin: auto;
+    margin: 0 auto;
   }
-  .form {
+.form {
     background: #FFFFFF;
     max-width: 360px;
-    margin: -100 auto 80px;
+    margin: 20px auto;
     padding: 40px;
     text-align: center;
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
     margin-top: -85px;
 }
-  input[type="text"] {
-    width: 70%;
+.form input[type="text"] {
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 3px solid #ccc;
+    border-radius: 8px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
   }
-  input[type="password"] {
-    width: 70%;
+.form  input[type="password"] {
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 3px solid #ccc;
+    border-radius: 8px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
@@ -48,14 +54,17 @@
     border: 3px solid #555;
   }
   input[type="submit"] {
-    width: 70%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 3px solid #ccc;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
+    width: 94%;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #555;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
   }
   
   input[type=text]:focus {
