@@ -8,6 +8,7 @@ import Description from "./components/View";
 import SellForm from "./components/SellForm";
 import FreshItems from "./components/FreshItems";
 import View from "./components/View";
+import Drop from "./components/Drop";
 // import Logout from "./components/Logout";
 
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/Signup" element={<Signup />} />
           <Route path="/View" element={<View />} />
           <Route path="/Sell" element={<SellForm />} />
+          <Route path="/Drop" element={<Drop />} />
           {/* <Route path = "/hardik123" element = {<FreshItems />} />  */}
           {/* <Route path="/hardik123" element={<Test />} /> */}
         </Routes>

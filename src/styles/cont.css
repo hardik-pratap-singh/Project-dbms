@@ -1,0 +1,25 @@
+.itemContainer{
+    width: 80%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.drop{
+    width: 28%;
+    padding: 1px 20px;
+    margin: -5px 12px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 3px solid #303336;
+    transition: 0.5s;
+    outline: none;
+    height: 2rem;
+    font-size: 16px;
+    color: white;
+    background-color: #5d5d62;
+}
+
+.drop:hover{
+    background-color: #303336;
+    border-color: #555;
+  }

@@ -10,7 +10,8 @@ function Login() {
     
       <div className="mainhead">
         <div className="header">
-          <h1>LOGIN HERE</h1>
+          <h1>Login</h1>
+          <br /><br />
         </div>
         <div className="login-page">
           <div className="form">
@@ -23,14 +24,12 @@ function Login() {
               <br />
               <input id="btn" type="submit" value="Login" />
               <br />
-              <p>
+              <p><br />
                 Don't have an account ?
                 <Link to="/Signup">
-                  {/* <br /> */}
                   Register now
                 </Link>
               </p>
-              <br />
               <p>
                 <a href="forgot.html">Forgot Password ?</a>
               </p>

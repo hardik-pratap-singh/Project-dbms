@@ -70,6 +70,20 @@ app.get("/getproducts", (req, res) => {
     });
   });
 })
+
+app.get("/getfields", (req, res) => {
+  con.connect(function (err) {
+    if (err) throw err;
+    con.query("select * from products, seller where products.productid=seller.productid and userid='hps'", function (err, result, fields) {
+      if (err) throw err;
+      else {
+        // console.log(result);
+        res.send({ articles: result });
+      }
+    });
+  });
+})
+
 app.post("/backend/login", (req, res) => {
   // res.send("Welcome to Login Page ! ")
   const userid = req.body.userid;

@@ -1,5 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import "../styles/nav.css";
+
 
 function Navbar() {
   return (
@@ -23,7 +25,7 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link className="nav-link " aria-current="page" to="/">
                   Home
                 </Link>
               </li>
@@ -33,7 +35,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <form action="../../backend/Logout" method="post">
-                <button type="submit" className="btn-dark">Logout</button>
+                  <Link className="nav-link" to="./Logout">Logout</Link>
                 </form>
               </li>
               {/* <li className="nav-item dropdown">
@@ -68,18 +70,20 @@ function Navbar() {
                 </ul>
               </li> */}
             </ul>
-            <form className="d-flex" role="search">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-                style={{ width: "400px" }}
-              />
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+            <form className="d-flex" >
+              
+              <select name="category" className="navbarcat" id="cat" placeholder="Category">
+                    <option value="none">All Categories</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Stationary">Stationary</option>
+                    <option value="Locomotives">Locomotives</option>
+                    <option value="Books">Books</option>
+              </select>
+                <button className="btn btn-outline-success filter" type="submit">
+                  Filter
+                </button>
+
+            </form>
           </div>
         </div>
       </nav>
