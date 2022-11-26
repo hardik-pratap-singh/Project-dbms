@@ -16,10 +16,10 @@ function SellForm() {
         <div className="login-page">
           <div className="form">
             <form method="post" action="../../backend/additem">
-                <input type="text" name="itemname" placeholder="Item Name" required />
+                <input type="text" name="itemname" placeholder="Item Name" autocomplete="off" required />
                 <br />
                 <br />
-                <input type="descp" name="desc" placeholder="Item Description" required />
+                <input type="descp" name="desc" placeholder="Item Description" autocomplete="off" required />
                 <br />
                 <br />
                 <input type="price" name="price" placeholder="Expected Price" required />

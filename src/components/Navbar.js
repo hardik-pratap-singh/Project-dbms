@@ -1,7 +1,7 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../styles/nav.css";
-
+import "../styles/Logout.css"
 
 function Navbar() {
   return (
@@ -9,7 +9,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-          लेन-देन
+            लेन-देन
           </Link>
           <button
             className="navbar-toggler"
@@ -35,55 +35,25 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <form action="../../backend/Logout" method="post">
-                  <Link className="nav-link" to="./Logout">Logout</Link>
+                  <input type="submit" value="LogOut" id="logout1" />
+                  {/* <input type = "submit" className="nav-link" to="./Logout">Logout</input> */}
                 </form>
               </li>
-              {/* <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="/"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li> */}
             </ul>
-            <form className="d-flex" >
-              
-              <select name="category" className="navbarcat" id="cat" placeholder="Category">
-                    <option value="none">All Categories</option>
-                    <option value="Electronics">Electronics</option>
-                    <option value="Stationary">Stationary</option>
-                    <option value="Locomotives">Locomotives</option>
-                    <option value="Books">Books</option>
-              </select>
-                <button className="btn btn-outline-success filter" type="submit">
-                  Filter
-                </button>
+            <form className="d-flex" action = "../../backend/category" method = "post">
 
-            </form>
+              <select name="category" className="navbarcat" id="cat" placeholder="Category">
+                <option value="none">All Categories</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Stationary">Stationary</option>
+                <option value="Locomotives">Locomotives</option>
+                <option value="Books">Books</option>
+              </select>
+              <button className="btn btn-outline-success filter" type="submit">
+                Filter
+              </button>
+
+            </form>
           </div>
         </div>
       </nav>
